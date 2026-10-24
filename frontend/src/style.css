@@ -1,0 +1,44 @@
+/* ============ 手绘卡通主题 ============ */
+:root {
+  --leaf-dark: #3f7d3a;
+  --leaf: #5da44e;
+  --leaf-light: #dcecd4;
+  --soil: #8a5a35;
+  --sun: #f7c948;
+  --bg: #f6f7ee;
+  --card: #ffffff;
+  --ink: #3d3a32;
+  --ink-light: #8a8678;
+  --border: #c9d8bf;
+  --radius-lg: 22px;
+  --radius-md: 14px;
+  --shadow: 0 6px 18px rgba(93, 138, 86, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.hand-font {
+  font-family: "Ma Shan Zheng", "Kaiti SC", "STKaiti", cursive;
+  letter-spacing: 1px;
+}
+
+/* 波浪分割装饰 */
+.wave {
+  width: 100%;
+  height: 26px;
+  background: radial-gradient(circle at 12px -6px, transparent 12px, var(--leaf-light) 13px) repeat-x;
+  background-size: 24px 26px;
+}
